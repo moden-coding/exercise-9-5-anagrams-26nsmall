@@ -1,5 +1,9 @@
 # Write your solution here
 def anagrams(word1 : str, word2 : str):
+    if sorted(word1) == sorted(word2):
+        return True
+    else:
+        return False
     pass
 
 if __name__ == "__main__":
